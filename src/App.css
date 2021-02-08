@@ -1,0 +1,84 @@
+body {
+  margin:0;
+}
+.header-section {
+  padding:16px 0;
+}
+.header-section a {
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+.header-section .header-right {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header-section a:hover{
+  color: burlywood;
+}
+.header-section .btn {
+  margin-left: 20px;
+}
+
+.blog-list-wrap {
+  padding:50px 0;
+}
+.banner-section {
+  position:relative;
+}
+.banner-section::before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  content: '';
+}
+.banner-section h2 {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:100px 0 0;
+}
+.blog-list-wrap .error {
+  text-align: center;
+  margin-top: 100px;
+}
+.error p {
+  font-weight: 600;
+}
+.form-container {
+  padding: 30px;
+  margin-top: 40px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.form-container h2 {
+  margin-bottom:30px ;
+}
+.form-container .MuiTextField-root {
+  margin: 0 0 20px;
+}
+.blog-post-wrap h2 {
+  margin: 0 0 20px;
+}
+
+@media(max-width:599px) {
+  .blog-list-wrap .MuiGrid-root.MuiGrid-item {
+    width:100%;
+  }
+}
+
+@media(max-width:480px) {
+  .header-section .btn {
+    margin-left: 10px;
+  }
+
+}
