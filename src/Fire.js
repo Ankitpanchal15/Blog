@@ -5,12 +5,12 @@ import 'firebase/storage'
 
 
   var firebaseConfig = {
-    apiKey: "AIzaSyDc0oxLp082Tp5XCSnfSHK4pIAfzEm6_Qg",
-    authDomain: "blog-5c2d1.firebaseapp.com",
-    projectId: "blog-5c2d1",
-    storageBucket: "blog-5c2d1.appspot.com",
-    messagingSenderId: "481033112802",
-    appId: "1:481033112802:web:1a0010b582320823d262bb"
+      apiKey: 'your api key goes here',
+    authDomain: 'your_app.firebaseapp.com',
+    databaseURL: 'https://your_app.firebaseio.com', // This is Dummy Data File of Firebase
+    projectId: 'your_app',
+    storageBucket: 'your_app.appspot.com',
+    messagingSenderId: '1234567890'
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
